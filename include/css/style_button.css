@@ -1,0 +1,587 @@
+/*************************** 흰색 버튼 시작 *********************************/
+/*작은 버튼*/
+.btn_s_white01 { 
+	cursor:pointer;
+	width:auto; 
+	overflow:visible; 
+	border:1px solid #a9a9a9; 
+	border-radius:2px; 
+	padding:4px 7px;  
+	background-color:#FFF;
+	font-size:11px; 
+	letter-spacing:-1px; 
+	color:#323232; }
+.btn_s_white01:hover { border:1px solid #666;}
+.btn_s_white01 img { vertical-align:1px; }
+
+.btn_s_white02{
+	border:1px solid #868686;
+	-webkit-border-radius: 1.5px;
+	-moz-border-radius: 1.5px;
+	border-radius: 1.5px;
+	font: 13px arial, helvetica, sans-serif;
+	cursor:pointer;
+	color:#323232;
+
+	margin-left:1px;
+	background-clip: padding-box; /* Fix bleeding */
+	padding: 3px 7px;
+	text-decoration:none;
+	display:inline-block;
+	background-color: #ffffff;
+	vertical-align:middle;
+}
+
+.btn_s_white02:hover{
+	border:1px solid #868686;
+	color: #868686;
+	background-color: #f9f9f9;
+}
+
+
+
+
+/*중간 버튼*/
+.btn_m_white01{
+border:1px solid #707070;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 2px;
+font-size:13px;
+padding: 7px 10px 5px 10px;
+margin:3px 0 3px 0;
+text-decoration:none;
+display:inline-block;
+font-weight:bold;
+color: #434243;
+cursor:pointer;
+height: 16px;
+background-color: #ffffff;
+background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#f2f2f2));
+background-image: -webkit-linear-gradient(top, #ffffff, #f2f2f2);
+background-image: -moz-linear-gradient(top, #ffffff, #f2f2f2);
+background-image: -ms-linear-gradient(top, #ffffff, #f2f2f2);
+background-image: -o-linear-gradient(top, #ffffff, #f2f2f2);
+background-image: linear-gradient(to bottom, #ffffff, #f2f2f2);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ffffff, endColorstr=#f2f2f2);
+}
+
+.btn_m_white01:hover{
+border:1px solid #707070;
+color: #434243;
+background-color: #f2f2f2;
+background-image: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#d1d1d1));
+background-image: -webkit-linear-gradient(top, #f2f2f2, #d1d1d1);
+background-image: -moz-linear-gradient(top, #f2f2f2, #d1d1d1);
+background-image: -ms-linear-gradient(top, #f2f2f2, #d1d1d1);
+background-image: -o-linear-gradient(top, #f2f2f2, #d1d1d1);
+background-image: linear-gradient(to bottom, #f2f2f2, #d1d1d1);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#f2f2f2, endColorstr=#d1d1d1);
+}
+
+.btn_m_white02 {
+	background: #fafafa;
+	background: -webkit-linear-gradient(top, #ffffff, #eeeeee);
+	background: -moz-linear-gradient(top, #ffffff, #eeeeee);
+	background: -o-linear-gradient(top, #ffffff, #eeeeee);
+	background: linear-gradient(to bottom, #ffffff, #eeeeee);
+	border: 1px solid #bbbbbb;
+	border-radius: 4px;
+	box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.2);
+	color: #555555;
+	cursor: pointer;
+	display: inline-block;
+	font-family: "Helvetica Neue", Arial, Verdana, "Nimbus Sans L", sans-serif;
+	font-size: 13px;
+	font-weight: 500;
+	height: 31px;
+	line-height: 28px;
+	outline: none;
+	padding: 0 13px;
+	text-shadow: 0 1px 0 white;
+	text-decoration: none;
+	vertical-align: middle;
+	white-space: nowrap;
+	-webkit-font-smoothing: antialiased;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin:2px;
+}
+
+.btn_m_white02:hover {
+	background: #1385e5;
+	background: -webkit-linear-gradient(top, #53b2fc, #1385e5);
+	background: -moz-linear-gradient(top, #53b2fc, #1385e5);
+	background: -o-linear-gradient(top, #53b2fc, #1385e5);
+	background: linear-gradient(to bottom, #53b2fc, #1385e5);
+	border-color: #075fa9;
+	color: white;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+}
+
+
+.btn_m_white03{
+border:1px solid #f3f3f3; -webkit-border-radius: 3px; -moz-border-radius: 3px;
+border-radius: 3px;
+font-size:12px;
+font-family:arial, helvetica, sans-serif;
+padding: 7px 15px;
+text-decoration:none;
+display:inline-block;
+font-weight:bold;
+/*text-shadow: -1px -1px 0 rgba(0,0,0,0.3);*/
+/*font-weight:bold;*/
+color: #757575;
+background-color: #f3f3f3;
+/*
+background-image: -webkit-gradient(linear, left top, left bottom, from(#f4793c), to(#e05612));
+background-image: -webkit-linear-gradient(top, #f4793c, #e05612);
+background-image: -moz-linear-gradient(top, #f4793c, #e05612);
+background-image: -ms-linear-gradient(top, #f4793c, #e05612);
+background-image: -o-linear-gradient(top, #f4793c, #e05612);
+background-image: linear-gradient(to bottom, #f4793c, #e05612);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#f4793c, endColorstr=#e05612);
+*/
+}
+
+.btn_m_white03:hover{
+border:1px solid #bebebe;
+color: #323232;
+background-color: #f3f3f3;
+/*
+background-image: -webkit-gradient(linear, left top, left bottom, from(#e05612), to(#eb6320));
+background-image: -webkit-linear-gradient(top, #e05612, #eb6320);
+background-image: -moz-linear-gradient(top, #e05612, #eb6320);
+background-image: -ms-linear-gradient(top, #e05612, #eb6320);
+background-image: -o-linear-gradient(top, #e05612, #eb6320);
+background-image: linear-gradient(to bottom, #e05612, #eb6320);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#e05612, endColorstr=#eb6320);
+*/
+}
+
+
+
+
+
+
+/*큰 버튼*/
+.btn_b_white01{
+border:1px solid #707070;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+font-size:13px;
+font-family:arial, helvetica, sans-serif;
+padding: 13px 23px;
+text-decoration:none;
+display:inline-block;
+/*text-shadow: -1px -1px 0 rgba(0,0,0,0.3);*/
+font-weight:bold;
+color: #434243;
+cursor:pointer;
+background-color: #ffffff;
+background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#f2f2f2));
+background-image: -webkit-linear-gradient(top, #ffffff, #f2f2f2);
+background-image: -moz-linear-gradient(top, #ffffff, #f2f2f2);
+background-image: -ms-linear-gradient(top, #ffffff, #f2f2f2);
+background-image: -o-linear-gradient(top, #ffffff, #f2f2f2);
+background-image: linear-gradient(to bottom, #ffffff, #f2f2f2);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ffffff, endColorstr=#f2f2f2);
+}
+.btn_b_white01:hover{
+border:1px solid #707070;
+color: #434243;
+background-color: #f2f2f2;
+background-image: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#d1d1d1));
+background-image: -webkit-linear-gradient(top, #f2f2f2, #d1d1d1);
+background-image: -moz-linear-gradient(top, #f2f2f2, #d1d1d1);
+background-image: -ms-linear-gradient(top, #f2f2f2, #d1d1d1);
+background-image: -o-linear-gradient(top, #f2f2f2, #d1d1d1);
+background-image: linear-gradient(to bottom, #f2f2f2, #d1d1d1);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#f2f2f2, endColorstr=#d1d1d1);
+}
+
+
+
+
+
+
+
+
+
+/*************************** 녹색 버튼 시작 *********************************/
+
+.btn_m_green01{
+	padding: 5px 7px 3px 7px; 
+	border-style: solid; 
+	border-width: 1px; 
+	border-radius: 4px; 
+	background: #fff; 
+	font-size: 12px; 
+	margin:2px 0px; 
+	height:16px;
+	cursor:pointer;
+	border-color: #2f9d27; 
+	color: #2f9d27;
+	display:inline-block;
+}
+
+
+.btn_m_green01:hover{
+	background: #2f9d27; color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*************************** 블랙 버튼 시작 *********************************/
+/*중간 버튼*/
+.btn_m_black01{
+border:1px solid #3a3a3a; -webkit-border-radius: 3px; -moz-border-radius: 3px;
+border-radius: 3px;
+font-size:13px;
+font-family:arial, helvetica, sans-serif;
+padding: 7px 13px;
+text-decoration:none;
+display:inline-block;
+cursor:pointer;
+/*text-shadow: -1px -1px 0 rgba(0,0,0,0.3);*/
+font-weight:bold;
+color: #fff;
+background-color: #7a7a7a; background-image: -webkit-gradient(linear, left top, left bottom, from(#7a7a7a), to(#3a3a3a));
+background-image: -webkit-linear-gradient(top, #7a7a7a, #3a3a3a);
+background-image: -moz-linear-gradient(top, #7a7a7a, #3a3a3a);
+background-image: -ms-linear-gradient(top, #7a7a7a, #3a3a3a);
+background-image: -o-linear-gradient(top, #7a7a7a, #3a3a3a);
+background-image: linear-gradient(to bottom, #7a7a7a, #3a3a3a);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#7a7a7a, endColorstr=#3a3a3a);
+}
+
+.btn_m_black01:hover{
+border:1px solid #2e2e2e;
+color: #fff;
+background-color: #3a3a3a;
+background-image: -webkit-gradient(linear, left top, left bottom, from(#3a3a3a), to(#2e2e2e));
+background-image: -webkit-linear-gradient(top, #3a3a3a, #2e2e2e);
+background-image: -moz-linear-gradient(top, #3a3a3a, #2e2e2e);
+background-image: -ms-linear-gradient(top, #3a3a3a, #2e2e2e);
+background-image: -o-linear-gradient(top, #3a3a3a, #2e2e2e);
+background-image: linear-gradient(to bottom, #3a3a3a, #2e2e2e);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#3a3a3a, endColorstr=#2e2e2e);
+}
+
+.btn_m_black02{
+border:1px solid #7a7a7a; -webkit-border-radius: 3px; -moz-border-radius: 3px;
+border-radius: 3px;
+font-size:12px;
+font-family:arial, helvetica, sans-serif;
+padding: 7px 15px;
+text-decoration:none;
+display:inline-block;
+font-weight:bold;
+/*text-shadow: -1px -1px 0 rgba(0,0,0,0.3);*/
+/*font-weight:bold;*/
+color: #fff;
+background-color: #3a3a3a;
+/*
+background-image: -webkit-gradient(linear, left top, left bottom, from(#f4793c), to(#e05612));
+background-image: -webkit-linear-gradient(top, #f4793c, #e05612);
+background-image: -moz-linear-gradient(top, #f4793c, #e05612);
+background-image: -ms-linear-gradient(top, #f4793c, #e05612);
+background-image: -o-linear-gradient(top, #f4793c, #e05612);
+background-image: linear-gradient(to bottom, #f4793c, #e05612);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#f4793c, endColorstr=#e05612);
+*/
+}
+
+.btn_m_black02:hover{
+border:1px solid #fff;
+color: #7a7a7a;
+/*
+background-image: -webkit-gradient(linear, left top, left bottom, from(#e05612), to(#eb6320));
+background-image: -webkit-linear-gradient(top, #e05612, #eb6320);
+background-image: -moz-linear-gradient(top, #e05612, #eb6320);
+background-image: -ms-linear-gradient(top, #e05612, #eb6320);
+background-image: -o-linear-gradient(top, #e05612, #eb6320);
+background-image: linear-gradient(to bottom, #e05612, #eb6320);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#e05612, endColorstr=#eb6320);
+*/
+}
+
+
+
+
+
+
+
+/*큰 버튼*/
+.btn_b_black01{
+border:1px solid #3a3a3a; -webkit-border-radius: 3px; -moz-border-radius: 3px;
+border-radius: 3px;
+font-size:13px;
+font-family:arial, helvetica, sans-serif;
+padding: 13px 23px;
+text-decoration:none;
+display:inline-block;
+cursor:pointer;
+/*text-shadow: -1px -1px 0 rgba(0,0,0,0.3);*/
+font-weight:bold;
+color: #fff;
+background-color: #7a7a7a; background-image: -webkit-gradient(linear, left top, left bottom, from(#7a7a7a), to(#3a3a3a));
+background-image: -webkit-linear-gradient(top, #7a7a7a, #3a3a3a);
+background-image: -moz-linear-gradient(top, #7a7a7a, #3a3a3a);
+background-image: -ms-linear-gradient(top, #7a7a7a, #3a3a3a);
+background-image: -o-linear-gradient(top, #7a7a7a, #3a3a3a);
+background-image: linear-gradient(to bottom, #7a7a7a, #3a3a3a);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#7a7a7a, endColorstr=#3a3a3a);
+}
+
+.btn_b_black01:hover{
+border:1px solid #2e2e2e;
+color: #fff;
+background-color: #3a3a3a;
+background-image: -webkit-gradient(linear, left top, left bottom, from(#3a3a3a), to(#2e2e2e));
+background-image: -webkit-linear-gradient(top, #3a3a3a, #2e2e2e);
+background-image: -moz-linear-gradient(top, #3a3a3a, #2e2e2e);
+background-image: -ms-linear-gradient(top, #3a3a3a, #2e2e2e);
+background-image: -o-linear-gradient(top, #3a3a3a, #2e2e2e);
+background-image: linear-gradient(to bottom, #3a3a3a, #2e2e2e);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#3a3a3a, endColorstr=#2e2e2e);
+}
+
+
+
+
+
+
+
+
+
+
+/*************************** 빨간 버튼 시작 *********************************/
+.btn_m_red01{
+border:1px solid #ff6262;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+font-size:13px;
+font-family:arial, helvetica, sans-serif;
+padding: 7px 13px;
+text-decoration:none;
+display:inline-block;
+/*text-shadow: -1px -1px 0 rgba(0,0,0,0.3);*/
+font-weight:bold;
+color: #fff;
+cursor:pointer;
+background-color: #ff9a9a;
+background-image: -webkit-gradient(linear, left top, left bottom, from(#ff9a9a), to(#ff4040));
+background-image: -webkit-linear-gradient(top, #ff9a9a, #ff4040);
+background-image: -moz-linear-gradient(top, #ff9a9a, #ff4040);
+background-image: -ms-linear-gradient(top, #ff9a9a, #ff4040);
+background-image: -o-linear-gradient(top, #ff9a9a, #ff4040);
+background-image: linear-gradient(to bottom, #ff9a9a, #ff4040);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ff9a9a, endColorstr=#ff4040);
+}
+
+.btn_m_red01:hover{
+border:1px solid #ff3434;
+color: #fff;
+background-color: #ff6767;
+background-image: -webkit-gradient(linear, left top, left bottom, from(#ff6767), to(#ff0d0d));
+background-image: -webkit-linear-gradient(top, #ff6767, #ff0d0d);
+background-image: -moz-linear-gradient(top, #ff6767, #ff0d0d);
+background-image: -ms-linear-gradient(top, #ff6767, #ff0d0d);
+background-image: -o-linear-gradient(top, #ff6767, #ff0d0d);
+background-image: linear-gradient(to bottom, #ff6767, #ff0d0d);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ff6767, endColorstr=#ff0d0d);
+}
+
+
+
+
+
+
+.btn_m_blue01{
+	padding: 5px 7px 3px 7px; 
+	border-style: solid; 
+	border-width: 1px; 
+	border-radius: 4px; 
+	background: #fff; 
+	font-size: 12px; 
+	margin:2px 0px; 
+	height:16px;
+	cursor:pointer;
+	border-color: #5858FA; 
+	color: #5858FA;
+	display:inline-block;
+}
+
+
+.btn_m_blue01:hover{
+	background: #5858FA; color: #fff;
+}
+
+
+/*************************** 파란색 버튼 시작 *********************************/
+.btn_b_blue01{
+border:1px solid #7cb6dc; -webkit-border-radius: 3px; -moz-border-radius: 3px;
+border-radius: 3px;
+font-size:13px;
+font-family:arial, helvetica, sans-serif;
+padding: 13px 23px;
+text-decoration:none;
+cursor:pointer;
+display:inline-block;
+/*text-shadow: -1px -1px 0 rgba(0,0,0,0.3);*/
+font-weight:bold;
+color: #fff;
+background-color: #cccccc; background-image: -webkit-gradient(linear, left top, left bottom, from(#a1cbe3), to(#77a9cc));
+background-image: -webkit-linear-gradient(top, #a1cbe3, #77a9cc);
+background-image: -moz-linear-gradient(top, #a1cbe3, #77a9cc);
+background-image: -ms-linear-gradient(top, #a1cbe3, #77a9cc);
+background-image: -o-linear-gradient(top, #a1cbe3, #77a9cc);
+background-image: linear-gradient(to bottom, #a1cbe3, #77a9cc);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#a1cbe3, endColorstr=#77a9cc);
+}
+
+.btn_b_blue01:hover{
+border:1px solid #7cb6dc;
+color: #fff;
+background-color: #77a9cc;
+background-image: -webkit-gradient(linear, left top, left bottom, from(#77a9cc), to(#588fb5));
+background-image: -webkit-linear-gradient(top, #77a9cc, #588fb5);
+background-image: -moz-linear-gradient(top, #77a9cc, #588fb5);
+background-image: -ms-linear-gradient(top, #77a9cc, #588fb5);
+background-image: -o-linear-gradient(top, #77a9cc, #588fb5);
+background-image: linear-gradient(to bottom, #77a9cc, #588fb5);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#77a9cc, endColorstr=#588fb5);
+}
+
+
+
+
+
+
+
+
+/*************************** 오랜지 버튼 시작 *********************************/
+.btn_s_orange01 {
+	border:1px solid #ff7000;
+	-webkit-border-radius: 1.5px;
+	-moz-border-radius: 1.5px;
+	border-radius: 1.5px;
+	font-size:12px;
+	cursor:pointer;
+	color:#ffffff;
+	padding: 4px 7px;
+	text-decoration:none;
+	display:inline-block;
+	background-color: #ff7000;
+	font-family:"돋움",Dotum,AppleGothic,sans-serif;
+}
+
+.btn_s_orange01:hover{
+	border:1px solid #525252;
+	color: #ffffff;
+	background-color: #525252;
+}
+
+
+
+
+.btn_b_orange01{
+border:1px solid #f60; -webkit-border-radius: 3px; -moz-border-radius: 3px;
+border-radius: 3px;
+font-size:13px;
+font-family:arial, helvetica, sans-serif;
+padding: 13px 23px;
+text-decoration:none;
+display:inline-block;
+/*text-shadow: -1px -1px 0 rgba(0,0,0,0.3);*/
+font-weight:bold;
+color: #fff;
+cursor:pointer;
+background-color: #fea00f;
+background-image: -webkit-gradient(linear, left top, left bottom, from(#fea00f), to(#ff5400));
+background-image: -webkit-linear-gradient(top, #fea00f, #ff5400);
+background-image: -moz-linear-gradient(top, #fea00f, #ff5400);
+background-image: -ms-linear-gradient(top, #fea00f, #ff5400);
+background-image: -o-linear-gradient(top, #fea00f, #ff5400);
+background-image: linear-gradient(to bottom, #fea00f, #ff5400);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#fea00f, endColorstr=#ff5400);
+}
+
+.btn_b_orange01:hover{
+border:1px solid #e84d01;
+color: #fff;
+background-color: #ff5400;
+background-image: -webkit-gradient(linear, left top, left bottom, from(#ff5400), to(#e84d01));
+background-image: -webkit-linear-gradient(top, #ff5400, #e84d01);
+background-image: -moz-linear-gradient(top, #ff5400, #e84d01);
+background-image: -ms-linear-gradient(top, #ff5400, #e84d01);
+background-image: -o-linear-gradient(top, #ff5400, #e84d01);
+background-image: linear-gradient(to bottom, #ff5400, #e84d01);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ff5400, endColorstr=#e84d01);
+}
+
+
+.btn_m_orange01{
+	padding: 5px 7px 2px 7px; 
+	border-style: solid; 
+	border-width: 1px; 
+	border-radius: 4px; 
+	background: #fff; 
+	font-size: 12px; 
+	margin: 2px 0px; 
+	height:16px;
+	cursor:pointer;
+	border-color: #ff7436; 
+	color: #ff5104;
+	display:inline-block;
+}
+
+
+.btn_m_orange01:hover{
+	background: #ff7436; color: #fff;
+}
+
+.btn_m_orange01 a {color:#ff5104;}
+.btn_m_orange01 a:hover {color:#fff;}
+
+
+
+.btn_m_orange02{
+	padding: 5px 7px 2px 7px; 
+	border-style: solid; 
+	border-width: 1px; 
+	border-radius: 4px; 
+	background: #fff; 
+	font-size: 12px; 
+	margin: 2px; 
+	height:16px;
+	cursor:pointer;
+	border-color: #ff7436; 
+	color: #ff5104;
+	display:inline-block;
+}
+
+
+.btn_m_orange02:hover{
+	background: #ff7436; color: #fff;
+}
+
+.btn_m_orange02 a {color:#ff5104;}
+.btn_m_orange02 a:hover {color:#fff;}
+
+
+.btn_b_orange02{
+border:1px solid #f26422;
+font-size:13px;
+font-family:arial, helvetica, sans-serif;
+padding: 13px 28px;
+text-decoration:none;
+display:inline-block;
+/*text-shadow: -1px -1px 0 rgba(0,0,0,0.3);*/
+font-weight:bold;
+color: #fff;
+background-color: #f26422;
+}
+
+.btn_b_orange02:hover{
+border:1px solid #f26422;
+color: #424242;
+background-color: #f26422;
+}
